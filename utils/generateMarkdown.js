@@ -34,40 +34,40 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
     return `
-    # ${data.title}
-    ${renderLicenseBadge(data.license)}
+# ${data.title}
+${renderLicenseBadge(data.license)}
 
-    ## Description
-    ${data.description}
+## Description
+${data.description}
 
-    ## Table of Contents
-    1. [Description](#description)
-    2. [Contributors](#contributors)
-    3. [Installation](#installation)
-    4. [Usage](#usage)
-    5. [Test](#Test)
-    6. [Questions](#questions)
+## Table of Contents
+1. [Description](#description)
+2. [Contributors](#contributors)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Test](#test)
+6. [Questions](#questions)
 
-    ## Contributors
-    ${data.contributors}
+## Contributors
+${data.contributors}
 
-    ## Installation
-    ${data.installation}
+## Installation
+${data.installation}
 
-    ## Usage
-    ${data.usage}
+## Usage
+${data.usage}
 
-    ## Test
-    ${data.projectTestApp}
+## Test
+${data.projectTestApp}
 
-    ## Questions
-    If you have any questions, you can reach me at [email](mailto:${data.userEmail}). 
-    <br />
-    Checkout my [GitHub](https://github.com/${data.githubUsername}).
+## Questions
+If you have any questions, you can reach me at [email](mailto:${data.userEmail}). 
+<br />
+Checkout my [GitHub](https://github.com/${data.githubUsername}).
 
-    ${renderLicenseSection(data.license)}
-    ${renderLicenseLink(data.license)}
-    `;
+${renderLicenseSection(data.license)}
+${renderLicenseLink(data.license)}
+`;
 };
 
 module.exports = generateMarkdown;
