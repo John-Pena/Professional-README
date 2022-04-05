@@ -1,44 +1,41 @@
-# README Generator
-    function renderLicenseBadge(license) {
-    if (!license) {
-        return '';
-    } else {
-        return `
-        ![badge]()
-        `;
-    }
-}
 
-    <a name="description"></a>
+    # READme Generator
+    
+        ![badge](https://img.shields.io/badge/license-MIT-blue)
+    
+
     ## Description
-    An application that creates a generated README file
+    Produces a READme.md file in the directory based on user input
 
     ## Table of Contents
-    1. [ Description ](#description)
-    2. [ Contributors ](#contributors)
-    3. [ Installation ](#install)
-    4. [ Usage ](#usage)
-    5. [ Test Application ](#test-app)
-    6. [ GitHub Username ](#github)
-    7. [ Email ](#email)
+    1. [Description](#description)
+    2. [Contributors](#contributors)
+    3. [Installation](#installation)
+    4. [Usage](#usage)
+    5. [Test](#Test)
+    6. [Questions](#questions)
 
-    <a name="install"></a>
+    ## Contributors
+    John Pena
+
     ## Installation
-    Download npm install inquirer
+    Clone repository to desired location on PC, open application, open terminal (ensure node.js is installed)
 
-    <a name="usage"></a>
     ## Usage
-    This application is used using Node.js in the terminal with prompts the user needs to answer
+    Use the terminal of the repository (Node.js and inquirer are required), type 'node index' in terminal to begin prompt to generate READme
 
-    <a name="test-app"></a>
-    ## Application Test
-    Ensure you have Node.js installed and inquirer. Enter the terminal and start the prompt by inserting 'node index'
+    ## Test
+    run 'node index' in the terminal to begin the prompts for the user. When all questions are asnwered, a READme should be generated
 
-    <a name="github"></a>
-    ## GitHub
-    https://github.com/John-Pena
+    ## Questions
+    If you have any questions, you can reach me at [email](mailto:jmp1495@gmail.com). 
+    </ br>
+    Checkout my [GitHub}(https://github.com/John-Pena)
 
-    <a name="email"></a>
-    jmp1495@gmail.com
+    
+        ## License
+    
+    
+        This application is licensed by [MIT](https://opensource.org/license/MIT).
     
     
