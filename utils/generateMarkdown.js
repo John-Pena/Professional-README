@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
         return '';
     } else {
         return `
-        ![badge]()
+        ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
         `;
     }
 }
@@ -54,7 +54,7 @@ function generateMarkdown(data) {
 
     <a name="email"></a>
     ${data.userEmail}
-    
+
     `;
 }
 
