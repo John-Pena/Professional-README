@@ -23,6 +23,7 @@ Download from my Git hub which will be listed in the READme
 
 ## Usage
 Used in the terminal by answering prompts. a link will also be attached
+https://drive.google.com/file/d/1LK48goGdAealsllEpCiNJx12zZGbSRBx/view
 
 ## Test
 Using the terminal and Node
